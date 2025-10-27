@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação - Seu Nome</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .neon-text {https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd6YTJsdzdldGprcDJzcml6Y3JpOHRxbTR4ZnRxbWk5cmNtNWVnMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/V69LhUggYIg6qmKUoD/200.webp
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2.5em;
+            color: #00ff00;
+            text-shadow: 
+                0 0 5px #00ff00,
+                0 0 10px #00ff00,
+                0 0 15px #00ff00,
+                0 0 20px #00ff00,
+                0 0 25px #00ff00;
+            animation: flicker 1.5s infinite alternate;
+            z-index: 9999;
+            width: 100%;
+            text-align: center;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.9; }
+            100% { opacity: 0.8; }
+        }
+        .banner {
+            width: 100%;
+            height: 200px; /* Altura do banner; ajuste conforme o GIF */
+            background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd6YTJsdzdldGprcDJzcml6Y3JpOHRxbTR4ZnRxbWk5cmNtNWVnMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/V69LhUggYIg6qmKUoD/200.webp'); /* Substitua pela URL do seu GIF */
+            background-size: cover; /* Cobre toda a área */
+            background-position: center; /* Centraliza */
+            background-repeat: no-repeat; /* Não repete */
+            margin: 80px 0 20px 0; /* Espaço abaixo do texto neon */
+            border-radius: 10px; /* Bordas arredondadas opcionais */
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 20px 0;
+        }
+        hr {
+            border: 1px solid #00ff00;
+            margin: 40px 0;
+        }
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .neon-text {
+                font-size: 2em;
+            }
+            .banner {
+                height: 150px; /* Menor no mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="neon-text">Seu Nome Aqui</h1>
+    
+    <div class="banner"></div> <!-- Banner com GIF aqui -->
+    
+    <div class="content">
+        <img src="img/sousou-no-frieren-frieren.gif" alt="Sua Foto">
+        
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>aoooba! Sou Tenakai,Sou um progamador iniciante jogador de robroxa.</p>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>[Outras habilidades]</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>Contato</h2>
+            <p>Email: NAOtenho imail pra bota@gmail.com</p>
+            <p>GitHub: <a href="" target="_blank">github</a></p>
+            <p>LinkedIn: [link]</p>
+        </div>
+    </div>
+</body>
+</html>
